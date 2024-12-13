@@ -25,6 +25,13 @@ public class BinarySearchTreeMain {
         completeBST.add(63);
         completeBST.add(67);
         System.out.println("Complete Tree Size: " + completeBST.size());
+        System.out.println("Searching for 63");
+        boolean found = completeBST.search(63);
+        System.out.println("Is 63 in the tree? " + found);
+        System.out.println("Searching for 18");
+        boolean g= completeBST.search(18);
+        System.out.println("Is 18 in the tree? " + g);
+        
 
 	}
 
